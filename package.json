@@ -4,7 +4,8 @@
   "description": "Node.js Demo for JWT Authentication",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "node.js",
@@ -23,5 +24,13 @@
     "jsonwebtoken": "^8.5.1",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nesibe-Sirin1/S-Nodejs-JWT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nesibe-Sirin1/S-Nodejs-JWT/issues"
+  },
+  "homepage": "https://github.com/Nesibe-Sirin1/S-Nodejs-JWT#readme"
 }
