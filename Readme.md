@@ -8,14 +8,16 @@ Projede Express, Sequelize kullanılarak Node.js Rest API oluşturuldu.
 
 Oluşturulan servisler şu şekildedir.
 
-1 - http://localhost:8080/signup 
+1- http://localhost:8080
+
+2- http://localhost:8080/signup 
 
 
-2 - http://localhost:8080/signIn 
+3- http://localhost:8080/signIn 
 
 
 
-3 - http://localhost:8080/notes 
+4- http://localhost:8080/notes 
 
 
-4 - http://localhost:8080/note/:id 
+5- http://localhost:8080/note/:id 
