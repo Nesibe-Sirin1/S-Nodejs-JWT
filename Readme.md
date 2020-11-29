@@ -1,15 +1,21 @@
-1- İlk olarak kurulumlar yapıldı. Express.js ,sequelize ,mysql2, body-parser, cors jsonwebtoken bcryptjs
+Projede Express, Sequelize kullanılarak Node.js Rest API oluşturuldu.
 
-
-2-Server.js üzerinde web sunucusu kuruldu.
-  -Ekspres, Rest API'leri oluşturmak içindir
-  -body-parser , isteği ayrıştırmaya ve req.bodynesneyi oluşturmaya yardımcı olur
-  -cors , CORS'u etkinleştirmek için Express ara yazılım sağlar.
+ Api ile User Admin ve PM adında rolleri vardır ve bu roller users tablosunda tutulup rollerin yetkilendirme işlemleri yapıldı. 
  
-3- db.config dosası hazırlandı 
+ Yetkilendirmelerle birlikte roller notes tablosundaki verileri listeleyip veri ekleyip, güncelleyip, silebilirler. Aynı şekilde user tablosunda da ekleme işlemi yapılabilir ve signin işlemi yapılmaktadır.
 
-4-user.model.js ve role.model.js hazrılandı.Bu modeller veritabanınında kullanıcı ve rolleri temsil eder.
 
-5-models/index.js oluşturularak kullanıcı ve roller arasındaki ilişki belirlendi . Çoktan çoğa ilişki ( birden fazla kullanıcı birden fazla role sahip olabilir.Bir Rol, birçok Kullanıcı tarafından kullanılabilir.)
 
-6-server.js sync() methodu çağırlarak güncellemeler yapıldı.
+Oluşturulan servisler şu şekildedir.
+
+1 - http://localhost:8080/signup 
+
+
+2 - http://localhost:8080/signIn 
+
+
+
+3 - http://localhost:8080/notes 
+
+
+4 - http://localhost:8080/note/:id 

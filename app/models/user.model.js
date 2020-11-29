@@ -1,10 +1,6 @@
-const { Sequelize } = require("sequelize");
-const sequelize = require("sequelize");
-
-module.exports=(sequelize,Sequelize)=>{
-    const User = sequelize.define("users",{
-
-username: {
+module.exports = (sequelize, Sequelize) => {
+  const User = sequelize.define("users", {
+    username: {
       type: Sequelize.STRING
     },
     email: {
